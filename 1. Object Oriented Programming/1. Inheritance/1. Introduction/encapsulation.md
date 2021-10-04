@@ -12,12 +12,6 @@ There are few Access Modifiers which help in encapsulation
 - Public
 
 
-Modifier 		Class  	 Package   Sub Class	Other Classes
-Private			Yes			No			No			No
-No Modifier		Yes			yes			No			No
-Protected		Yes			Yes			Yes			No
-Public 			Yes			Yes			Yes			Yes
-
 # Advantages on Encapsulation
 
 - The encapsulated code is more flexible and easy to change with new requirements.
