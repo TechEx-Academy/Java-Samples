@@ -18,3 +18,7 @@ There are few Access Modifiers which help in encapsulation
 - It prevents the other classes to access the private fields.
 - Encapsulation allows modifying implemented code without breaking other code that has implemented the code.
 - It keeps the data and codes safe from external inheritance. Thus, Encapsulation helps to achieve security.
+
+# Code snippet explaination
+
+In the mentioned code snippet, we can see that all the attributes of the class are made private, hence these attributes cannot be accessed directly outside of the class. To access them these getters and setter methods are used. The setter methods initialize or change the value of an attribute and getters return the value of an attribute.
