@@ -21,4 +21,39 @@ There are few Access Modifiers which help in encapsulation
 
 # Code snippet explaination
 
-In the mentioned code snippet, we can see that all the attributes of the class are made private, hence these attributes cannot be accessed directly outside of the class. To access them these getters and setter methods are used. The setter methods initialize or change the value of an attribute and getters return the value of an attribute.
+``` java
+
+   //using private access modifiers
+
+    private  String Breed;
+    private String Color;
+    private int Age;
+    private int Size;
+    
+```
+
+In the above mentioned code snippet, we can see that all the attributes of the class are made private, hence these attributes cannot be accessed directly outside of the class. To access them these getters and setter methods are used.In the below mentioned code you will be able to see how it is done.
+
+``` java
+
+   //implementing setters and getters  public methods to access the private attributes
+
+    public String getBreed() { //getter to get breed
+        return Breed;
+    }
+
+    public void setBreed(String breed) { //setter to set breed
+        Breed = breed;
+    }
+    
+    public String getColor() { //getter to get color
+        return Color;
+    }
+
+    public void setColor(String color) { //setter to set color
+        Color = color;
+    }
+    
+```
+
+As shown above the setter methods initialize or change the value of an attribute and getters return the value of an attribute.
