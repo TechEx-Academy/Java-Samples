@@ -2,7 +2,7 @@ public class sample {
     public static void main(String[] args) {
         Dog dog=new Dog();//create  a  dog object
         dog.animalSound();
-
+        dog.animalFeature();
 
     }
 }
@@ -10,6 +10,11 @@ public class sample {
 abstract class Animal{
     // Abstract method (does not have a body)
     public abstract void animalSound();
+    
+     public void animalFeature(){
+      System.out.println("Has 4 legs/limbs");
+    
+    }
 }
 
 // Subclass (inherit from Animal)
