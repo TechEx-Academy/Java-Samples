@@ -1,3 +1,30 @@
+
+ class Test {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        
+        
+        
+       Dog dog = new Dog();
+       
+   dog.setBreed("German Sheperd");
+   dog.setAge(5);
+   dog.setColor("Brown");
+   dog.setSize(2);
+    
+    
+        System.out.println(dog.getBreed());
+        System.out.println(dog.getAge()+" years old ");
+        System.out.println(dog.getColor()+" color");
+        System.out.println(dog.getSize() +" feet height");
+    }
+    
+}
+
+
 public class Dog {
 
    //using private access modifiers
@@ -32,6 +59,8 @@ public class Dog {
     public void setAge(int age) { //setter to set age
         Age = age;
     }
+	
+
 
     public int getSize() { //getter to get size
         return Size;
@@ -40,3 +69,4 @@ public class Dog {
     public void setSize(int size) { //setter to set size
         Size = size;
     }
+}
